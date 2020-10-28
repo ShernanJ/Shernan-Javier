@@ -6,7 +6,6 @@ import { NavItems, Link, Resume} from "./NavigationStyles";
 
 const Wrapper = styled.div`
   display: flex;
-  height:100%;
   /* box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5); */
   flex-flow: row;
   padding: 16px 0px;
