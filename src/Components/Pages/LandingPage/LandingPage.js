@@ -7,8 +7,9 @@ import ScrollIndicator from "./ScrollIndicator/ScrollIndicator";
 const Wrapper = styled.div`
   height: 100%;
   width: 100%;
-  padding: 0;
+  padding:0;
   margin: 0;
+  background-color: red;
 `;
 
 
