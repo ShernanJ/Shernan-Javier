@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.header`
-  margin: 35% auto 40% auto;
+  margin: 20% auto 40% auto;
   width: 80%;
-  @media only screen and (min-width: 768px){
+  @media only screen and (min-width: 769px){
     margin: 5% auto 0 auto;
   width: 56.4%;
   } 
@@ -15,7 +15,7 @@ export const Text = styled.span`
   font-weight:300;
   color: #444452;
   
-  @media only screen and (min-width: 768px){
+  @media only screen and (min-width: 769px){
     font-size: 1.82vw;
     font-weight:300;
     color: #444452;
@@ -27,7 +27,7 @@ export const MainText = styled(Text)`
   font-size: 11vw;
   font-weight: bold;
   
-  @media only screen and (min-width: 768px){
+  @media only screen and (min-width: 769px){
     font-size: 5vw;
   }
 `;
@@ -36,7 +36,7 @@ export const SecondText = styled(MainText)`
     color: #4C9ED4;
     white-space: normal;
     
-  @media only screen and (min-width: 768px){
+  @media only screen and (min-width: 769px){
     font-size: 3.26vw;
     white-space: nowrap;
   }
