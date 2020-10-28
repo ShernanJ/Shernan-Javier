@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const NavItems = styled.ul`
   display: flex;
+  flex:50%;
   justify-content: flex-end;
   flex-flow: row;
   margin: 0;
