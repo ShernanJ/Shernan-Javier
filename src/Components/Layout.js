@@ -1,5 +1,8 @@
 import React from 'react'
-import LandingPage from './LandingPage/LandingPage';
+import LandingPage from './Pages/LandingPage/LandingPage';
+import About from './Pages/About/About';
+import Projects from './Pages/Projects/Projects';
+import Contact from './Pages/Contact/Contact';
 import Navigation from './Navigation/Navigation';
 import styled from 'styled-components';
 
@@ -14,6 +17,9 @@ const Layout = (props) => {
     <Wrapper>
       <Navigation />
       <LandingPage />
+      <About />
+      <Projects />
+      <Contact />
     </Wrapper>
   )
 }
