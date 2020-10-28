@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.header`
-  margin: 20% auto 40% auto;
+  margin: auto;
+  padding: 50% 0 25% 0;
   width: 80%;
   @media only screen and (min-width: 769px){
-    margin: 5% auto 0 auto;
-  width: 56.4%;
+    /* margin: 6.5% auto 0 auto; */
+    margin: auto;
+    padding: 10% 0 3.5% 0;
+    width: 56.4%;
   } 
 `;
 
