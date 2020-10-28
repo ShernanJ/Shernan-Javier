@@ -1,17 +1,18 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+
+import Header from './Header/Header';
 
 const Wrapper = styled.div`
-
 `;
 
-const LandingPage = (props) => {
 
-  return(
+const LandingPage = (props) => {
+  return (
     <Wrapper>
-      <h1>Hello</h1>
+      <Header />
     </Wrapper>
-  )
-}
+  );
+};
 
 export default LandingPage;
