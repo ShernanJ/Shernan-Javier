@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.header`
   margin: auto;
-  padding: 50% 0 25% 0;
+  padding: 20vh 0 8vh 0;
   width: 80%;
   @media only screen and (min-width: 769px){
     /* margin: 6.5% auto 0 auto; */
