@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   background-color: white;
   width: 100%;
   top: 0;
+  z-index: 1;
 `;
 
 
@@ -21,7 +22,7 @@ const Navigation = (props) => {
     <Wrapper>
       <Logo />
       <NavItems>
-        <Link href="/">About</Link>
+        <Link href="#about">About</Link>
         <Link href="/">Projects</Link>
         <Link href="/">Contact</Link>
         <Resume>Resume</Resume>
