@@ -1,34 +1,35 @@
 import React from "react";
 import styled from "styled-components";
 
-const Wrapper = styled.div``;
+import Texts from "./Texts";
+import mainImage from "../../../../assets/HandsomeMan.png";
 
-const Text = styled.p`
-  font-size: 24px;
-  color: #444452;
+const Wrapper = styled.div`
+  display: flex;
+  height: 100%;
+  width: 78.6%;
+  margin: 0 auto;
 `;
 
-const Title = styled.span`
-  font-size: 64px;
-  font-weight: 600;
-  color: #444452;
+const ImageWrapper = styled.div`
+  flex: auto;
+  padding-top: 22%;
+`;
+
+const Image = styled.img`
+  display: block;
+  height: auto;
+  width: 350px;
+  margin: auto;
 `;
 
 const Content = (props) => {
   return (
     <Wrapper>
-      <Title>About Me</Title>
-      <Text>
-        I’m a passionate{" "}
-        <span style={{ color: "#4C9ED4", fontWeight: "bold" }}>
-          software development
-        </span>{" "}
-        student currently in my second year. I’m a design-minded developer that
-        focuses on delivering elegant and efficient web applications. I’m always
-        willing to learn new and better ways to create seamless user experiences
-        with clean, cost-effective, and scalable code.
-      </Text>
-      <Text>Notable technology I’ve been working with recently:</Text>
+      <Texts />
+      <ImageWrapper>
+        <Image src={mainImage} />
+      </ImageWrapper>
     </Wrapper>
   );
 };
