@@ -3,12 +3,20 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   flex: 50%;
+  margin: auto auto auto 16px;
   margin-left: 16px;
 `;
 
 const Image = styled.svg`
-  height: 60px;
+  height: 50px;
   transition: fill 0.3s;
+  @media only screen and (min-width: 769px){
+    height: 60px;
+    
+  }
+  @media only screen and (min-width: 768px) and (max-height: 1367px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    height: 60px; 
+  }
 `;
 
 const StyledPath = styled.path`
