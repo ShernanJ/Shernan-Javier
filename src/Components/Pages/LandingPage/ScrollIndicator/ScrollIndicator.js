@@ -16,6 +16,7 @@ const Mouse = styled.div`
   border-radius: 25px;
   background-color: none;
   margin: auto;
+  
 `;
 
 const ScrollAnimation = keyframes`
@@ -44,6 +45,10 @@ const Text = styled.span`
   font-weight: lighter;
   color: #444452;
   font-size: 14px;
+  @media only screen and (min-width: 768px) and (max-height: 1367px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    font-size: 32px;
+  }
+  
 `;
 
 const ScrollIndicator = (props) => {

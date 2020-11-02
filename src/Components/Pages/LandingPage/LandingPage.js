@@ -5,7 +5,7 @@ import Header from './Header/Header';
 import ScrollIndicator from "./ScrollIndicator/ScrollIndicator";
 
 const Wrapper = styled.div`
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   padding:0;
   margin: 0;
