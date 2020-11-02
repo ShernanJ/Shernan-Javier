@@ -5,7 +5,7 @@ import Content from './Content/Content';
 
 const Wrapper = styled.div`
   display: block;
-  height:100%;
+  min-height: 100%;
   width: 100%;
 `;
 
