@@ -10,6 +10,7 @@ const Wrapper = styled.div`
 const Image = styled.svg`
   height: 50px;
   transition: fill 0.3s;
+  cursor: pointer;
   @media only screen and (min-width: 769px){
     height: 60px;
     
@@ -31,8 +32,7 @@ const Logo = (props) => {
 
   return ( 
     <Wrapper>
-      <a href="/">
-        <Image
+        <Image onClick={() => window.scrollTo(0,0)}
           width="60"
           height="66"
           viewBox="0 0 60 66"
@@ -50,7 +50,6 @@ const Logo = (props) => {
             fill={fillColours[1]}
           />
         </Image>
-      </a>
     </Wrapper>
   );
 };
