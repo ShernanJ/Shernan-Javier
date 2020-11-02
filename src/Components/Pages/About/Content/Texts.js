@@ -3,27 +3,35 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   display:block;
-  padding-top: 11%;
-  flex: 60%;
+  flex: 70%;
+  @media only screen and (min-width: 769px){
+
+  }
 `;
 
 const Text = styled.p`
-  font-size: 1.4rem;
+  font-size: 5vw;
   /* font-size: 24px; */
   color: #444452;
+  @media only screen and (min-width: 769px){
+    font-size: 1.6rem;
+  }
 `;
 
 const Title = styled.span`
-  font-size: 64px;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #444452;
+  @media only screen and (min-width: 769px){
+    font-size: 3rem;
+  }
 `;
 
 const Texts = (props) => {
   return (
     <Wrapper>
       <Title>About Me</Title>
-      <Text style={{marginTop:"64px"}}>
+      <Text>
         I’m a passionate{" "}
         <span style={{ color: "#4C9ED4", fontWeight: "bold" }}>
           software development
