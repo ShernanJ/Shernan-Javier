@@ -2,10 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  display:block;
+  display: block;
   flex: 70%;
-  @media only screen and (min-width: 769px){
-
+  @media only screen and (min-width: 769px) {
   }
 `;
 
@@ -13,7 +12,7 @@ const Text = styled.p`
   font-size: 5vw;
   /* font-size: 24px; */
   color: #444452;
-  @media only screen and (min-width: 769px){
+  @media only screen and (min-width: 769px) {
     font-size: 1.6rem;
   }
 `;
@@ -22,7 +21,7 @@ const Title = styled.span`
   font-size: 2.5rem;
   font-weight: 600;
   color: #444452;
-  @media only screen and (min-width: 769px){
+  @media only screen and (min-width: 769px) {
     font-size: 3rem;
   }
 `;
@@ -43,7 +42,9 @@ const Texts = (props) => {
         I’m always willing to learn new and better ways to create seamless user
         experiences with clean, cost-effective, and scalable code.
       </Text>
-      <Text>Notable technology I’ve been working with recently:</Text>
+      <Text>
+        Besides programming, I love playing video games, cycling, and dogs!
+      </Text>
     </Wrapper>
   );
 };
