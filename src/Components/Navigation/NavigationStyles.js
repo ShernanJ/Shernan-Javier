@@ -1,20 +1,25 @@
 import styled from "styled-components";
 
 export const NavItems = styled.ul`
-  display: flex;
-  flex:50%;
+  display: none;
+  flex: 50%;
   justify-content: flex-end;
   flex-flow: row;
   margin: 0;
   padding: 0;
   list-style: none;
   height: 100%;
+  @media only screen and (min-width: 769px) {
+    display: flex;
+  }
+  @media only screen and (min-width: 768px) and (max-height: 1367px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  }
 `;
 
 export const Link = styled.a`
   font-size: 24px;
   font-weight: 350;
-  color: #1584CE;
+  color: #1584ce;
   text-decoration: none;
   height: 50%;
   width: auto;
@@ -29,12 +34,13 @@ export const Link = styled.a`
   }
 `;
 
-export const Resume = styled(Link)`
+export const ResumeBtn = styled(Link)`
   color: #fa504c;
   border: thin #fa504c solid;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: color 0.5s, background-color 0.5s;
-  padding: 0px 10px;
+  padding: 6px 16px;
+  margin: 10px 16px;
   margin-right: 32px;
   &:hover,
   &:active {
@@ -44,6 +50,4 @@ export const Resume = styled(Link)`
   }
 `;
 
-export const Logo = styled.div`
-
-`;
+export const Logo = styled.div``;
