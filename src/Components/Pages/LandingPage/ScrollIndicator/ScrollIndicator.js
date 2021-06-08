@@ -1,5 +1,5 @@
-import React from 'react'
-import styled, {keyframes} from 'styled-components';
+import React from "react";
+import styled, { keyframes } from "styled-components";
 
 const Wrapper = styled.div`
   position: relative;
@@ -16,7 +16,6 @@ const Mouse = styled.div`
   border-radius: 25px;
   background-color: none;
   margin: auto;
-  
 `;
 
 const ScrollAnimation = keyframes`
@@ -40,7 +39,6 @@ const MouseScroll = styled.div`
   animation: ${ScrollAnimation} 2s ease infinite;
 `;
 
-
 const Text = styled.span`
   font-weight: lighter;
   color: #444452;
@@ -48,18 +46,17 @@ const Text = styled.span`
   @media only screen and (min-width: 768px) and (max-height: 1367px) and (-webkit-min-device-pixel-ratio: 1.5) {
     font-size: 32px;
   }
-  
 `;
 
 const ScrollIndicator = (props) => {
-  return(
+  return (
     <Wrapper>
       <Mouse>
         <MouseScroll />
       </Mouse>
       <Text>scroll down</Text>
     </Wrapper>
-  )
-}
+  );
+};
 
 export default ScrollIndicator;
