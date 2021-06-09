@@ -7,6 +7,9 @@ import {
   DemoButton,
   Spacing,
   ButtonsWrapper,
+  Title,
+  Description,
+  Tools,
 } from "./ProjectStyles";
 
 const Project = (props) => {
@@ -15,9 +18,9 @@ const Project = (props) => {
 
   let textContent = (
     <TextContainer>
-      <h1>{props.name}</h1>
-      <p>{props.desc}</p>
-      <p>{props.tools}</p>
+      <Title>{props.name}</Title>
+      <Description>{props.desc}</Description>
+      <Tools>{props.tools}</Tools>
       <ButtonsWrapper>
         <DemoButton onClick={() => window.open(`${props.demoLink}`, "_blank")}>
           Demo
@@ -27,7 +30,7 @@ const Project = (props) => {
           value="View Code"
           onClick={() => window.open(`${props.githubLink}`, "_blank")}
         >
-          View Code
+          GitHub
         </CodeButton>
       </ButtonsWrapper>
     </TextContainer>
