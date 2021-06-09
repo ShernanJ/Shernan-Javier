@@ -6,7 +6,6 @@ export const ModalWrapper = styled.div`
   left: 0;
   z-index: 500;
   width: 100px;
-  box-shadow: 1px 1px 1px black;
   box-sizing: border-box;
   transition: all 0.3s ease-out;
 
