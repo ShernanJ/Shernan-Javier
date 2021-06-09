@@ -2,6 +2,7 @@
   {
     "id": 0,
     "name": "ConsoliDate",
+    "status": "January 1, 2021 - Ongoing",
     "desc": "A web application that visualizes and automatically consolidates academic related events, such as tests, assignments, and quizzes. View upcoming dates on ConsoliDate’s calendar or easily integrate it to other calendars of your choice!",
     "tools": "React.js • ASP.NET • SQL",
     "demo_link": "https://www.shernanjavier.com/",
@@ -11,6 +12,7 @@
   {
     "id": 1,
     "name": "DevDemo",
+    "status": "May 20, - Ongoing",
     "desc": "An innovative showcasing platform for developers and designers to effortlessly display their projects. Utilized API Routes, Incorporated CRUD functionality, and JWT authentication.",
     "tools": "MongoDB • Express.js • React.js • Node.js",
     "demo_link": "https://www.shernanjavier.com/",
