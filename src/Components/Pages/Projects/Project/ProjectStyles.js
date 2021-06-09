@@ -4,8 +4,13 @@ export const Wrapper = styled.div`
   display: flex;
   width: 78.6%;
   margin: auto;
-  flex-direction: row;
-  padding-bottom: 8%;
+  flex-direction: column-reverse;
+  padding-bottom: 12%;
+
+  @media only screen and (min-width: 769px) {
+    flex-direction: row;
+    padding-bottom: 8%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -15,7 +20,7 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.p`
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #444452;
 `;
@@ -27,14 +32,21 @@ export const Tools = styled(Description)`
 
 export const Image = styled.img`
   flex: 0 0 52.083%;
-  width: 47.917%;
-  height: auto;
+  width: 52.083%;
+  height: 100%;
+  width: 100%;
   box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
   transition: all 0.3s;
+  margin: 10% auto auto auto;
 
   &:hover {
     transform: scale(1.05);
     box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  @media only screen and (min-width: 769px) {
+    width: 52.083%;
+    margin: auto;
   }
 `;
 
