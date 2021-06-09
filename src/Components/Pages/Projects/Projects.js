@@ -6,7 +6,6 @@ const Wrapper = styled.div`
   display: block;
   min-height: 100%;
   width: 100%;
-  background-color: red;
 `;
 
 const Projects = (props) => {
