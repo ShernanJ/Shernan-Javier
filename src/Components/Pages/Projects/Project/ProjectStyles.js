@@ -5,7 +5,24 @@ export const Wrapper = styled.div`
   width: 78.6%;
   margin: auto;
   flex-direction: row;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
+`;
+
+export const Title = styled.h1`
+  font-size: 2rem;
+  font-weight: 600;
+  color: #444452;
+`;
+
+export const Description = styled.p`
+  font-size: 1rem;
+  font-weight: 400;
+  color: #444452;
+`;
+
+export const Tools = styled(Description)`
+  font-weight: 500;
+  color: #4c9ed4;
 `;
 
 export const Image = styled.img`
@@ -13,6 +30,12 @@ export const Image = styled.img`
   width: 47.917%;
   height: auto;
   box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -24,6 +47,7 @@ export const TextContainer = styled.div`
 export const DemoButton = styled.button`
   font-weight: 600;
   width: 17.625%;
+  height: 38px;
   flex: 1;
   color: white;
   background: #0163f7;
