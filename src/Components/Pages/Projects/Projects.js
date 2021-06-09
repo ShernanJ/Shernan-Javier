@@ -2,12 +2,6 @@ import React from "react";
 import Project from "./Project/Project";
 import styled from "styled-components";
 
-const Wrapper = styled.div`
-  display: block;
-  min-height: 100%;
-  width: 100%;
-`;
-
 const Projects = (props) => {
   // Insert project name here, place preview in images folder with same project name.
   const projects = require("./projects.json");
@@ -27,9 +21,22 @@ const Projects = (props) => {
 
   return (
     <Wrapper>
-      <h1>Projects</h1>
+      <Title>Projects</Title>
       {projectList}
     </Wrapper>
   );
 };
 export default Projects;
+
+const Wrapper = styled.div`
+  display: block;
+  min-height: 100%;
+  width: 100%;
+`;
+
+const Title = styled.h1`
+  margin-left: 10.5%;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #444452;
+`;
