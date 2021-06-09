@@ -5,6 +5,8 @@ import {
   TextContainer,
   CodeButton,
   DemoButton,
+  Spacing,
+  ButtonsWrapper,
 } from "./ProjectStyles";
 
 const Project = (props) => {
@@ -16,29 +18,34 @@ const Project = (props) => {
       <h1>{props.name}</h1>
       <p>{props.desc}</p>
       <p>{props.tools}</p>
-      <DemoButton onClick={() => window.open(`${props.demoLink}`, "_blank")}>
-        Demo
-      </DemoButton>
-      <CodeButton
-        type="button"
-        value="View Code"
-        onClick={() => window.open(`${props.githubLink}`, "_blank")}
-      >
-        View Code
-      </CodeButton>
+      <ButtonsWrapper>
+        <DemoButton onClick={() => window.open(`${props.demoLink}`, "_blank")}>
+          Demo
+        </DemoButton>
+        <CodeButton
+          type="button"
+          value="View Code"
+          onClick={() => window.open(`${props.githubLink}`, "_blank")}
+        >
+          View Code
+        </CodeButton>
+      </ButtonsWrapper>
     </TextContainer>
   );
 
   if (props.index % 2 === 0 || props.index === 0) {
     content = (
       <>
-        <Image src={img} alt={props.name} /> {textContent}
+        <Image src={img} alt={props.name} />
+        <Spacing />
+        {textContent}
       </>
     );
   } else {
     content = (
       <>
         {textContent}
+        <Spacing />
         <Image src={img} alt={props.name} />
       </>
     );
