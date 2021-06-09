@@ -48,7 +48,7 @@ const Navigation = (props) => {
       <NavItems>
         <Link href="#about">About</Link>
         <Link href="/">Projects</Link>
-        <Link href="/">Contact</Link>
+        <Link href="mailto:shernanjavier@gmail.com">Contact</Link>
         <ResumeBtn onClick={props.visible}>Resume</ResumeBtn>
       </NavItems>
     </Wrapper>
