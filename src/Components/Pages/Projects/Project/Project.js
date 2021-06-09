@@ -36,7 +36,7 @@ const Project = (props) => {
     </TextContainer>
   );
 
-  if (props.index % 2 === 0 || props.index === 0) {
+  if (props.index % 2 === 0 || props.index === 0 || window.innerWidth < 769) {
     content = (
       <>
         <Image src={img} alt={props.name} />
@@ -44,7 +44,7 @@ const Project = (props) => {
         {textContent}
       </>
     );
-  } else {
+  } else if (window.innerWidth > 769) {
     content = (
       <>
         {textContent}
