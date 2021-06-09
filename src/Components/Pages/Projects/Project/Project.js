@@ -1,5 +1,11 @@
 import React from "react";
-import { Wrapper, Image, TextContainer } from "./ProjectStyles";
+import {
+  Wrapper,
+  Image,
+  TextContainer,
+  CodeButton,
+  DemoButton,
+} from "./ProjectStyles";
 
 const Project = (props) => {
   let content = null;
@@ -10,16 +16,16 @@ const Project = (props) => {
       <h1>{props.name}</h1>
       <p>{props.desc}</p>
       <p>{props.tools}</p>
-      <input
-        type="button"
-        value="Demo"
-        onClick={() => window.open(`${props.demoLink}`, "_blank")}
-      />
-      <input
+      <DemoButton onClick={() => window.open(`${props.demoLink}`, "_blank")}>
+        Demo
+      </DemoButton>
+      <CodeButton
         type="button"
         value="View Code"
         onClick={() => window.open(`${props.githubLink}`, "_blank")}
-      />
+      >
+        View Code
+      </CodeButton>
     </TextContainer>
   );
 
