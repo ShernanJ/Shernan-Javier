@@ -20,7 +20,7 @@ const Projects = (props) => {
   ));
 
   return (
-    <Wrapper>
+    <Wrapper id="projects">
       <Title>Projects</Title>
       {projectList}
     </Wrapper>

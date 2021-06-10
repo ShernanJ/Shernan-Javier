@@ -47,7 +47,7 @@ const Navigation = (props) => {
       <DrawerToggle />
       <NavItems>
         <Link href="#about">About</Link>
-        <Link href="/">Projects</Link>
+        <Link href="#projects">Projects</Link>
         <Link href="mailto:shernanjavier@gmail.com">Contact</Link>
         <ResumeBtn onClick={props.visible}>Resume</ResumeBtn>
       </NavItems>
