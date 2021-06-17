@@ -8,7 +8,6 @@ import { NavItems, Link, ResumeBtn } from "./NavigationStyles";
 const Wrapper = styled.div`
   position: fixed;
   display: flex;
-  /* box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5); */
   flex-flow: row;
   padding: 16px 2.5%;
   background-color: white;
@@ -29,8 +28,10 @@ const Navigation = (props) => {
   const handleScroll = useCallback(() => {
     const currentScrollPos = window.pageYOffset;
 
-    setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
-    setPrevScrollPos(currentScrollPos);
+    if (window.innerWidth > 769) {
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    }
   }, [prevScrollPos]);
 
   useEffect(() => {
@@ -41,7 +42,9 @@ const Navigation = (props) => {
 
   return (
     <Wrapper
-      style={{ transform: visible ? "translateY(0)" : "translateY(-15vh)" }}
+      style={{
+        transform: visible ? "translateY(0)" : "translateY(-15vh)",
+      }}
     >
       <Logo />
       <DrawerToggle />
