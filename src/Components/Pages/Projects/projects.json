@@ -2,21 +2,28 @@
   {
     "id": 0,
     "name": "ConsoliDate",
-    "status": "January 1, 2021 - Ongoing",
-    "desc": "A web application that visualizes and automatically consolidates academic related events, such as tests, assignments, and quizzes. View upcoming dates on ConsoliDate’s calendar or easily integrate it to other calendars of your choice!",
+    "desc": "A web application that visualizes and consolidates academic-related events through an algorithm that parses texts, such as tests, assignments, and quizzes. View upcoming dates on ConsoliDate’s calendar or easily integrate it to other calendars of your choice!",
     "tools": "React.js • ASP.NET • SQL",
     "demo_link": "https://www.shernanjavier.com/",
-    "github_link": "https://www.github.com/ShernanJ",
+    "github_link": "https://www.github.com/ShernanJ/ConsoliDate",
     "image": "./images/ConsoliDate.png"
   },
   {
     "id": 1,
     "name": "DevDemo",
-    "status": "May 20, - Ongoing",
     "desc": "An innovative showcasing platform for developers and designers to effortlessly display their projects. Utilized API Routes, Incorporated CRUD functionality, and JWT authentication.",
     "tools": "MongoDB • Express.js • React.js • Node.js",
     "demo_link": "https://www.shernanjavier.com/",
-    "github_link": "https://www.github.com/ShernanJ",
+    "github_link": "https://www.github.com/ShernanJ/DevDemo",
     "image": "./images/DevDemo.png"
+  },
+  {
+    "id": 2,
+    "name": "Leveling Up!",
+    "desc": "A mobile application that gamifies productivity! Create a character, then progress by staying away from your phone to focus on something else. The point of the app is to reward you for staying productive!",
+    "tools": "React Native • Node.js • Express.js • MongoDB",
+    "demo_link": "https://www.shernanjavier.com/",
+    "github_link": "https://www.github.com/ShernanJ/Leveling-Up",
+    "image": "./images/LevelingUp.png"
   }
 ]
