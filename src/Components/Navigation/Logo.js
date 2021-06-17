@@ -32,7 +32,7 @@ const Logo = (props) => {
   return (
     <Wrapper>
       <Image
-        onClick={() => window.scrollTo(0, 0)}
+        onClick={() => (window.location.href = "/")}
         width="60"
         height="66"
         viewBox="0 0 60 66"
