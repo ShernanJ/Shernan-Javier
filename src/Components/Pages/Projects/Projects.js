@@ -33,7 +33,7 @@ const Wrapper = styled.div`
   min-height: 100%;
   width: 100%;
 
-  margin-top: 30%;
+  margin-top: 60%;
 
   @media only screen and (min-width: 769px) {
     margin-top: 0%;
