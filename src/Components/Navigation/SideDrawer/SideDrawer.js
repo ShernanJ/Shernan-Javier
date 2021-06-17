@@ -5,8 +5,12 @@ const SideDrawer = (props) => {
   return (
     <Wrapper style={{ transform: props.style }}>
       <NavItems>
-        <Link href="#about">About</Link>
-        <Link href="#projects">Projects</Link>
+        <Link href="#about" onClick={props.clicked}>
+          About
+        </Link>
+        <Link href="#projects" onClick={props.clicked}>
+          Projects
+        </Link>
         <Link href="mailto:shernanjavier@gmail.com">Contact</Link>
         <ResumeBtn
           href="https://drive.google.com/file/d/132N8I2zWpET4zkaAEJ5_gj3k8-yKCGuw/view?usp=sharing"

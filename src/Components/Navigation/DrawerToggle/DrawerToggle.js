@@ -80,6 +80,7 @@ const DrawerToggle = (props) => {
       </Menu>
       <SideDrawer
         style={isDrawerOpened ? "translateX(0)" : "translate(100vw)"}
+        clicked={() => handleClick()}
       />
     </Wrapper>
   );
