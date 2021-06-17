@@ -4,6 +4,7 @@ export const Wrapper = styled.header`
   margin: auto;
   padding: 20vh 0 8vh 0;
   width: 80%;
+  white-space: nowrap;
   @media only screen and (min-width: 769px) {
     /* margin: 6.5% auto 0 auto; */
     margin: auto;
@@ -21,7 +22,7 @@ export const Text = styled.span`
   font-size: 5vw;
   font-weight: 300;
   color: #444452;
-
+  white-space: nowrap;
   @media only screen and (min-width: 769px) {
     font-size: 1.82vw;
     font-weight: 300;
@@ -36,7 +37,7 @@ export const MainText = styled(Text)`
   /* font-size: 85px; */
   font-size: 11vw;
   font-weight: bold;
-
+  white-space: nowrap;
   @media only screen and (min-width: 769px) {
     font-size: 5vw;
   }
@@ -54,7 +55,7 @@ export const SecondText = styled(MainText)`
     white-space: nowrap;
   }
   @media only screen and (min-width: 768px) and (max-height: 1367px) and (-webkit-min-device-pixel-ratio: 1.5) {
-   font-size: 5.2vw; 
-   white-space: normal;
+    font-size: 5.2vw;
+    white-space: normal;
   }
 `;
