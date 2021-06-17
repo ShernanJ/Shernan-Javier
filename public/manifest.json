@@ -2,6 +2,11 @@
   "short_name": "Shernan Javier",
   "name": "Shernan Javier Portfolio",
   "icons": [
+    {
+      "src": "Icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
   ],
   "start_url": ".",
   "display": "standalone",
