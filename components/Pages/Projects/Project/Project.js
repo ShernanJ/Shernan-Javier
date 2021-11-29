@@ -40,7 +40,7 @@ const Project = (props) => {
   content = (
     <>
       <ImageContainer>
-        <CustomImage src={img} alt={props.name} />
+        <CustomImage src={img} alt={props.name} priority={true} />
       </ImageContainer>
       <Spacing />
       {textContent}

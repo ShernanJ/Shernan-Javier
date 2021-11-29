@@ -33,6 +33,7 @@ const Logo = (props) => {
     <Wrapper>
       <Image
         alt="Logo"
+        priority={true}
         onClick={() => (window.location.href = "/")}
         width="60"
         height="66"
