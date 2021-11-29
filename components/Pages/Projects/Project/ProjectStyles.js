@@ -8,8 +8,11 @@ export const Wrapper = styled.div`
   padding-bottom: 12%;
 
   @media only screen and (min-width: 769px) {
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding-bottom: 8%;
+    :nth-child(even) {
+      flex-direction: row;
+    }
   }
 `;
 
