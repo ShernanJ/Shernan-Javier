@@ -1,4 +1,7 @@
-html,
+import { createGlobalStyle, ThemeProvider } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  html,
 body {
   height: 100%;
   width: 100%;
@@ -23,3 +26,16 @@ code {
   height: 100%;
   width: 100%;
 }
+
+`;
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <GlobalStyle />
+      <Component {...pageProps} />
+    </>
+  );
+}
+
+export default MyApp;

@@ -1,7 +1,8 @@
 import React from "react";
 import {
   Wrapper,
-  Image,
+  CustomImage,
+  ImageContainer,
   TextContainer,
   CodeButton,
   DemoButton,
@@ -36,23 +37,15 @@ const Project = (props) => {
     </TextContainer>
   );
 
-  if (props.index % 2 === 0 || props.index === 0 || window.innerWidth < 769) {
-    content = (
-      <>
-        <Image src={img} alt={props.name} />
-        <Spacing />
-        {textContent}
-      </>
-    );
-  } else if (window.innerWidth > 769) {
-    content = (
-      <>
-        {textContent}
-        <Spacing />
-        <Image src={img} alt={props.name} />
-      </>
-    );
-  }
+  content = (
+    <>
+      <ImageContainer>
+        <CustomImage src={img} alt={props.name} />
+      </ImageContainer>
+      <Spacing />
+      {textContent}
+    </>
+  );
 
   return <Wrapper>{content}</Wrapper>;
 };

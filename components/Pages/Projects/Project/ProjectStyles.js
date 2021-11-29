@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -8,8 +9,11 @@ export const Wrapper = styled.div`
   padding-bottom: 12%;
 
   @media only screen and (min-width: 769px) {
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding-bottom: 8%;
+    :nth-child(even) {
+      flex-direction: row;
+    }
   }
 `;
 
@@ -30,23 +34,24 @@ export const Tools = styled(Description)`
   color: #4c9ed4;
 `;
 
-export const Image = styled.img`
+export const CustomImage = styled(Image)``;
+
+export const ImageContainer = styled.div`
   flex: 0 0 52.083%;
   width: 52.083%;
   height: 100%;
   width: 100%;
+  margin: 10% auto auto auto;
+  @media only screen and (min-width: 769px) {
+    width: 52.083%;
+    margin: auto;
+  }
   box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
   transition: all 0.3s;
-  margin: 10% auto auto auto;
 
   &:hover {
     transform: scale(1.05);
     box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  @media only screen and (min-width: 769px) {
-    width: 52.083%;
-    margin: auto;
   }
 `;
 

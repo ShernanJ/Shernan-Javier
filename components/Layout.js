@@ -5,7 +5,6 @@ import Projects from "./Pages/Projects/Projects";
 import Navigation from "./Navigation/Navigation";
 import styled from "styled-components";
 import Modal from "./UI/Modal/Modal";
-import ResumePDF from "../assets/Shernan-Javier-Resume.pdf";
 
 const Layout = (props) => {
   const [resumeVisible, toggleResume] = useState(false);
@@ -20,9 +19,7 @@ const Layout = (props) => {
           style={{ display: resumeVisible ? "block" : "none" }}
         />
         <div>
-          <Button href={ResumePDF} download="Shernan-Javier-Resume.pdf">
-            Download
-          </Button>
+          <Button>Download</Button>
           <Exit onClick={() => toggleResume(false)}>Exit</Exit>
         </div>
       </Modal>
