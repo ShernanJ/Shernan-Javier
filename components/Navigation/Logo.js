@@ -32,6 +32,7 @@ const Logo = (props) => {
   return (
     <Wrapper>
       <Image
+        alt="Logo"
         onClick={() => (window.location.href = "/")}
         width="60"
         height="66"

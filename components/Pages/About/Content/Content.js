@@ -16,6 +16,7 @@ const Content = (props) => {
       <ImageSection>
         <ImageContainer>
           <CustomImage
+            alt="Photo of Shernan Javier"
             src={mainImage}
             layout="responsive"
             objectFit="contain"
