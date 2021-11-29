@@ -52,7 +52,12 @@ const Navigation = (props) => {
         <Link href="#about">About</Link>
         <Link href="#projects">Projects</Link>
         <Link href="mailto:shernanjavier@gmail.com">Contact</Link>
-        <ResumeBtn onClick={props.visible}>Resume</ResumeBtn>
+        <ResumeBtn
+          href="https://drive.google.com/file/d/132N8I2zWpET4zkaAEJ5_gj3k8-yKCGuw/view?usp=sharing"
+          target="_blank"
+        >
+          Resume
+        </ResumeBtn>
       </NavItems>
     </Wrapper>
   );
