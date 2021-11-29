@@ -20,6 +20,7 @@ const Content = (props) => {
             src={mainImage}
             layout="responsive"
             objectFit="contain"
+            priority={true}
           />
         </ImageContainer>
       </ImageSection>
