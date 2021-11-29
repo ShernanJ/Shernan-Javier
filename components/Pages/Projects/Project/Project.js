@@ -1,7 +1,8 @@
 import React from "react";
 import {
   Wrapper,
-  Image,
+  CustomImage,
+  ImageContainer,
   TextContainer,
   CodeButton,
   DemoButton,
@@ -38,7 +39,9 @@ const Project = (props) => {
 
   content = (
     <>
-      <Image src={img} alt={props.name} />
+      <ImageContainer>
+        <CustomImage src={img} alt={props.name} />
+      </ImageContainer>
       <Spacing />
       {textContent}
     </>
