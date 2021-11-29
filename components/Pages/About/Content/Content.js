@@ -1,5 +1,10 @@
 import React from "react";
-import { Image, ImageWrapper, Wrapper } from "./ContentStyles";
+import {
+  CustomImage,
+  ImageSection,
+  ImageContainer,
+  Wrapper,
+} from "./ContentStyles";
 
 import Texts from "./Texts";
 import mainImage from "../../../../assets/shernan1.jpg";
@@ -8,9 +13,15 @@ const Content = (props) => {
   return (
     <Wrapper>
       <Texts />
-      <ImageWrapper>
-        <Image src={mainImage} />
-      </ImageWrapper>
+      <ImageSection>
+        <ImageContainer>
+          <CustomImage
+            src={mainImage}
+            layout="responsive"
+            objectFit="contain"
+          />
+        </ImageContainer>
+      </ImageSection>
     </Wrapper>
   );
 };

@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const Wrapper = styled.div`
   display: flex;
-  height: 100%;
+  min-height: 100%;
   width: 78.6%;
   margin: auto;
+  margin-bottom: 20vh;
   padding-top: 28%;
   flex-direction: column;
 
@@ -19,30 +21,30 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const ImageWrapper = styled.div`
+export const ImageSection = styled.div`
+  display: flex;
   flex: auto;
   margin: auto;
-`;
-
-export const Image = styled.img`
-  /* display: block;
   height: auto;
-  width: 60vw;
-  margin: auto;
-  @media only screen and (min-width: 769px) {
-    width: 90%;
-    padding-top: 15%;
-    margin: 0 0 auto auto;
-  } */
-  display: block;
-  height: auto;
-  margin: auto;
   width: 55vw;
-  border-radius: 50%;
-  border: 3px lightgray solid;
   @media only screen and (min-width: 769px) {
     width: 17vw;
-    margin: 15% 0 auto auto;
+    margin: auto 0 auto 5%;
     padding: 6px;
   }
+`;
+
+export const CustomImage = styled(Image)`
+  object-fit: contain;
+  border-radius: 50%;
+`;
+
+export const ImageContainer = styled.div`
+  flex: auto;
+  justify-content: center;
+  border: 3px lightgray solid;
+  border-radius: 50%;
+  width: 100%;
+  padding: 2%;
+  margin: auto;
 `;
