@@ -13,7 +13,7 @@ const SideDrawer = (props) => {
         </Link>
         <Link href="mailto:shernanjavier@gmail.com">Contact</Link>
         <ResumeBtn
-          href="https://drive.google.com/file/d/132N8I2zWpET4zkaAEJ5_gj3k8-yKCGuw/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_qmKdsMpTXzzXtwCWYEGh90puMwCTtKa/view"
           target="_blank"
         >
           Resume
