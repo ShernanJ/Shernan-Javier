@@ -9,16 +9,25 @@
     "image": "./images/UofTHacksIX.png"
   },
   {
-    "id": 0,
+    "id": 1,
     "name": "UofTHacks X Site",
     "desc": "The main website for UofTHacks X!",
-    "tools": "React.js • Next.js • Node.js • Nginx",
+    "tools": "React.js • Next.js • CSS • stitches.dev • Node.js • Nginx",
     "demo_link": "https://www.uofthacks.com/",
     "github_link": "https://github.com/UofTHacks-Official/site-x",
     "image": "./images/UofTHacksX.png"
   },
   {
     "id": 2,
+    "name": "MekTek Site",
+    "desc": "The main site for MekTek, a custom WordPress Theme designed by Richie Kong, and that I developed.",
+    "tools": "PHP• WordPress • CSS • Nginx",
+    "demo_link": "https://www.mektekinc.ca/",
+    "github_link": "https://github.com/ShernanJ/mektek-site-theme",
+    "image": "./images/MekTek.png"
+  },
+  {
+    "id": 3,
     "name": "ConsoliDate",
     "desc": "A web application that visualizes and consolidates academic-related events through an algorithm that parses texts, such as tests, assignments, and quizzes. View upcoming dates on ConsoliDate’s calendar or easily integrate it to other calendars of your choice!",
     "tools": "React.js • ASP.NET • SQL",
@@ -27,7 +36,7 @@
     "image": "./images/ConsoliDate.png"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "DevDemo",
     "desc": "An innovative showcasing platform for developers and designers to effortlessly display their projects. Utilized API Routes, Incorporated CRUD functionality, and JWT authentication.",
     "tools": "MongoDB • Express.js • React.js • Node.js",
@@ -36,7 +45,7 @@
     "image": "./images/DevDemo.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Leveling Up!",
     "desc": "A mobile application that gamifies productivity! Create a character, then progress by staying away from your phone to focus on something else. The point of the app is to reward you for staying productive!",
     "tools": "React Native • Node.js • Express.js • MongoDB",
