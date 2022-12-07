@@ -4,7 +4,7 @@
     "name": "UofTHacks IX Site",
     "desc": "The main website for UofTHacks IX!",
     "tools": "React.js • Next.js • Node.js • Nginx",
-    "demo_link": "https://www.uofthacks.com/",
+    "demo_link": "https://ix.uofthacks.com/",
     "github_link": "https://github.com/UofTHacks-Official/site-ix",
     "image": "./images/UofTHacksIX.png"
   },
