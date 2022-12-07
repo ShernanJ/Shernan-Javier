@@ -35,7 +35,7 @@ const Texts = (props) => {
         <span style={{ color: "#4C9ED4", fontWeight: "bold" }}>
           software development
         </span>{" "}
-        student currently in my second year. I’m a design-minded developer that
+        student currently in my third year. I’m a design-minded developer that
         focuses on delivering elegant and efficient web applications.
       </Text>
       <Text>
