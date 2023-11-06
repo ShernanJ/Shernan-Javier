@@ -1,6 +1,15 @@
 [
   {
     "id": 0,
+    "name": "Intern Net",
+    "desc": "Developed a web scraping service to acquire internship postings from various job sites using Python and Scrapy, then store it into MongoDB. Implemented user authentication, and email verification, handled data processing and endpoints to serve data to front-end apps using Go. Created a React web-app, and an iOS/Android app using Swift and Kotlin for users to view, track, and apply to the filtered jobs.",
+    "tools": "Python • Go • React • Swift • Kotlin • MongoDB • Microservices • Web Scraping",
+    "demo_link": "https://intern-net.works/",
+    "github_link": "https://github.com/Intern-Net-App",
+    "image": "./images/InternNet.png"
+  },
+  {
+    "id": 1,
     "name": "UofTHacks IX Site",
     "desc": "The main website for UofTHacks IX!",
     "tools": "React.js • Next.js • Node.js • Nginx",
@@ -9,16 +18,16 @@
     "image": "./images/UofTHacksIX.png"
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "UofTHacks X Site",
     "desc": "The main website for UofTHacks X!",
     "tools": "React.js • Next.js • CSS • stitches.dev • Node.js • Nginx",
-    "demo_link": "https://www.uofthacks.com/",
+    "demo_link": "https://x.uofthacks.com/",
     "github_link": "https://github.com/UofTHacks-Official/site-x",
     "image": "./images/UofTHacksX.png"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "MekTek Site",
     "desc": "The main site for MekTek, a custom WordPress Theme designed by Richie Kong, and that I developed.",
     "tools": "PHP • JavaScript • WordPress • CSS",
@@ -27,7 +36,7 @@
     "image": "./images/MekTek.png"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "ConsoliDate",
     "desc": "A web application that visualizes and consolidates academic-related events through an algorithm that parses texts, such as tests, assignments, and quizzes. View upcoming dates on ConsoliDate’s calendar or easily integrate it to other calendars of your choice!",
     "tools": "React.js • ASP.NET • SQL",
@@ -36,7 +45,7 @@
     "image": "./images/ConsoliDate.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Spacestagram",
     "desc": "An application which showcases NASA photos infinitely like Instagram! (Submission for Shopify Summer 2022 Front-End Internship Challenge)",
     "tools": "React.js • Next.js • axios • styled-components • CSS",
@@ -45,7 +54,7 @@
     "image": "./images/Spacestagram.png"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Collabi",
     "desc": "A social media network that matches you with other creators to make unique and meaningful projects.",
     "tools": "React.js • Express.js • Node.js • Firebase",
@@ -54,7 +63,7 @@
     "image": "./images/Collabi.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "DevDemo",
     "desc": "An innovative showcasing platform for developers and designers to effortlessly display their projects. Utilized API Routes, Incorporated CRUD functionality, and JWT authentication.",
     "tools": "MongoDB • Express.js • React.js • Node.js",
@@ -63,7 +72,7 @@
     "image": "./images/DevDemo.png"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Leveling Up!",
     "desc": "A mobile application that gamifies productivity! Create a character, then progress by staying away from your phone to focus on something else. The point of the app is to reward you for staying productive!",
     "tools": "React Native • Node.js • Express.js • MongoDB",
