@@ -31,19 +31,13 @@ const Texts = (props) => {
     <Wrapper>
       <Title>About Me</Title>
       <Text>
-        I’m a passionate{" "}
-        <span style={{ color: "#4C9ED4", fontWeight: "bold" }}>
-          software development
-        </span>{" "}
-        student currently in my third year. I’m a design-minded developer that
-        focuses on delivering elegant and efficient web applications.
+       I am a fourth year Software Engineer student at Sheridan College!
       </Text>
       <Text>
-        I’m always willing to learn new and better ways to create seamless user
-        experiences with clean, cost-effective, and scalable code.
+        I am currently looking for Winter and Summer 2024 internships before finishing school in Fall 2024!
       </Text>
       <Text>
-        Besides programming, I love playing video games, cycling, and dogs!
+        Besides programming, I love rock climbing, skiing, and cars!
       </Text>
     </Wrapper>
   );
