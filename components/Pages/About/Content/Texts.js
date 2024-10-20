@@ -34,7 +34,7 @@ const Texts = (props) => {
        I am a fourth year Software Engineer student at Sheridan College!
       </Text>
       <Text>
-        I am currently looking for a Summer 2024 internship and finishing school in December 2025!
+        I am currently looking for a Spring/Summer 2025 internship and finishing school in December 2025!
       </Text>
       <Text>
         Besides programming, I love rock climbing, skiing, and cars!
